@@ -1,0 +1,85 @@
+
+QSplitter::handle {
+   background: white;
+}
+
+QSplitter::handle:horizontal {
+    width: 1px;
+}
+
+QSplitter::handle:vertical {
+    height: 1px;
+ }
+
+ QSplitter::handle:pressed {
+    background: white;
+}
+
+
+QTreeView::branch:has-siblings:!adjoins-item {
+    border-image: url(s/vline.png) 0;
+}
+
+QTreeView::branch:has-siblings:adjoins-item {
+    border-image: url(s/branch-more.png) 0;
+}
+
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    border-image: url(s/branch-end.png) 0;
+}
+
+QTreeView::branch:has-children:!has-siblings:closed,QTreeView::branch:closed:has-children:has-siblings {
+        border-image: none;
+        image: url(s/branch-closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,QTreeView::branch:open:has-children:has-siblings  {
+        border-image: none;
+        image: url(s/branch-open.png);
+}
+
+
+QTableView::item{
+    background-color:white;
+    color:black;
+    selection-color:blue;
+}
+QTableView {
+    background:#eee;
+}
+QLineEdit {
+    font:14px;
+    width: 40px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 0 4px;
+    background: white;
+    selection-background-color: darkgray;
+}
+
+QDialog QPushButton{
+    background-color:#66CCFF;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: Lightblue;
+    font: bold 11px;
+    padding: 3px;
+    
+}
+QDialog QPushButton::pressed{
+    background-color:Lightblue;
+}
+
+QDialog QLineEdit {
+    font:bold 12px;
+    height:25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: white;
+    selection-background-color: darkgray;
+}
+QDialog QLabel{
+    font:bold 11px;
+}
