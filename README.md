@@ -6,8 +6,11 @@ pip install pyside or python -m pip install pyside
 
 pip install nampy 
 
-pip install mysql-connectore
+pip install mysql-connector
 _________________________________________________________
 
 
 ##  install mysql 
+
+
+//\\//\\//\\//\\/\\//\\/\\//\\//\\/\\/\\/\\/\\\//\/\/\/\/\/\/\/\/\
