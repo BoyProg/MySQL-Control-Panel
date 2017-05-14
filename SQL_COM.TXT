@@ -1,0 +1,72 @@
+BIGINT
+INTEGER
+INT
+SMALLINT
+TINYINT
+BIT
+DECIMAL
+NUMERIC
+MONEY
+SMALLMONEY
+FLOAT
+REAL
+DATETIME
+SMALDATETIME
+DATE
+TIME
+CHAR
+VARCHAR
+TEXT
+NCHAR
+NVARCHAR
+NTEXT
+BINARY
+VARBINARY
+IMAGE
+AUTO_INCREMENT
+UNSIGNED
+PRIMARY KEY
+NOT NULL
+NULL
+DEFAULT
+UNIQUE
+REFERENCES
+CUSTOMERS
+FOREIGN KEY
+CHECK
+bigint
+int
+smallint
+tinyint
+bit
+decimal
+numeric
+money
+smallmoney
+float
+real
+datetime
+smaldatetime
+date
+time
+char
+varchar
+text
+nchar
+nvarchar
+ntext
+binary
+varbinary
+image
+auto_increment
+unsigned
+primary key
+not null
+null
+default
+unique
+references
+customers
+foreign key
+check
+integer
